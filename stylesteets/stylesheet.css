@@ -9,7 +9,7 @@ h2+p{
     border-bottom: 1px grey solid;
 
 } */
-ul a:link{
+/* ul a:link{
     color: green;
 }
 ul a:visited{
@@ -25,4 +25,13 @@ li:first-child::first-letter{
 }
 [title~="BCIT"]{
     background-color: yellow;
+} */
+img{
+    float:left;
+}
+.below{
+    clear:left;
+}
+img+p{
+    border: solid 1px black;
 }
